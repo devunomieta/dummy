@@ -1,0 +1,51 @@
+* {
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 4% 7%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+nav .nav-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px; */
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero .hero-banner {
+    width: 80%;
+}
+
+.hero-img {
+    height: 300px;
+    overflow-y: hidden;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.hero-sidebar {
+    display: flex;
+    margin-left: 20px;
+    width: 20%;
+}
